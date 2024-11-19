@@ -6,7 +6,8 @@ import MainScreen from './Screens/MainScreen';
 
 function AppContent({a}) {
   console.log(a)
-  console.log("ffff666")
+  console.log("ffff")
+
   return (
     <Routes>
       <Route exact path="/main" element={<MainPanel />} />
