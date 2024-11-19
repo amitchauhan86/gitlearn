@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainScreen from './Screens/MainScreen';
 
 function AppContent() {
+  console.log("this is change only dev branch")
+  console.log(">>>>>>>>>>>>>>>>")
   return (
     <Routes>
       <Route exact path="/main" element={<MainPanel />} />
