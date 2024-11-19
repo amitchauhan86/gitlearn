@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainScreen from './Screens/MainScreen';
 
 function AppContent({a}) {
-
+  console.log(a)
+  console.log("ffff666")
   return (
     <Routes>
       <Route exact path="/main" element={<MainPanel />} />
