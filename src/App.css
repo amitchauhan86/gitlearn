@@ -1,0 +1,157 @@
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.login-signup-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 50%; /* Adjust the width as needed */
+  background-color: #ffffff; /* Optional background color for the tab */
+}
+
+/* Style the buttons */
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  /* background-color: #007bff; */
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 50%;
+  border-radius: 100px;
+}
+
+/* Change background on hover */
+.tab-button:hover {
+  background-color: #589b4c;
+}
+
+.tab-button.active {
+  color: black;
+  opacity: 1;
+  background-color: #589b4c;
+}
+
+/* Inactive button styling */
+.tab-button.inactive {
+  color: black;
+  /* opacity: 0.5; */
+}
+.signup {
+  width: 100% !important;
+}
+.signup-form {
+  width: 100%;
+}
+.SignUpform {
+  display: unset !important;
+  height: 92% !important;
+}
+/* .firstname-last{
+    display: flex;
+    gap: 10px;
+  } */
+.signup-container {
+  height: 100vh !important;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-field {
+  width: 100%;
+}
+.firstname-last {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.firstname-last input {
+  width: calc(50% - 5px); /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+  width: 100%; /* Ensure error message spans full width */
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 21px;
+}
+
+.form-row {
+  display: flex;
+  /* gap: 10px; */
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 9px;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  display: block;
+  margin: 0px 1px -10px 0px;
+}
+.SignUpheading{
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+  margin-bottom: 34px;
+  overflow: auto;
+  background: white;
+}
+
+select#state , select#country, select#city{
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  /* border-radius: 4px; */
+}
+.price{
+  color: blue;
+}
+.header-name{
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+img.card-img-top {
+  height: 300px;
+  width: auto;
+  padding: 10px;
+}
+
+
+.col.mb-4 {
+  height: 472px;
+}
+
+h5.card-title {
+  font-size: 15px;
+}

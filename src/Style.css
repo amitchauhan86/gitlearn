@@ -1,0 +1,603 @@
+/* body{
+  font-family: "Montserrat", sans-serif;
+} */
+
+.login-main {
+  /* background: linear-gradient(135deg, #589B4C, #DAEFD3); */
+  height: 100vh !important;
+  width: 100% !important;
+}
+
+h4 {
+  font-family: "Segoe UI", bold;
+  font-size: 35px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.inner-login {
+  display: inline-block;
+  align-items: center;
+  height: 270px;
+  width: 473px;
+  margin-bottom: 170px;
+}
+
+.text_input {
+  font-family: "Montserrat regular";
+  font-size: 18px;
+  border: none;
+  align-content: center;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 2px 0 rgba(0, 0, 0, 0.19);
+  padding: 16px;
+}
+
+.btn {
+  margin-top: 28px;
+  width: 165px;
+  height: 50px;
+  border-radius: 30px;
+  /* background: #B58DED; */
+  /* background: linear-gradient(135deg, #589B4C, #b7dcab); */
+  background-color: #589b4c;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #ffffff;
+  box-shadow: 0 0px 1px 0 rgba(50, 53, 68, -1.3),
+    0 0px 13px 0 rgba(-1, 92, 8, 0.5);
+  cursor: pointer;
+}
+.logout-button {
+  width: auto;
+  height: auto;
+  font-family: "Montserrat";
+  /* box-shadow: 0 0px 1px 0 rgba(50, 53, 68, -1.3), 0 0px 13px 0 rgba(-1, 92, 8, 0.5); */
+  /* background: linear-gradient(135deg, #589B4C, #b7dcab); */
+  background-color: #589b4c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+}
+.profile-logo {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 5px !important;
+}
+
+.login {
+  display: inline-block;
+  background: #ffffff;
+  width: 541px;
+  height: 500px;
+  margin-top: 10%;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-modal {
+  top: 64px !important;
+}
+.link {
+  color: #0e4579;
+  font-family: "Montserrat light";
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.modal-header p {
+  margin: 0px;
+}
+
+.Login_Icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.inner-panel {
+  margin-top: 20px;
+  position: absolute;
+  height: auto;
+  width: 80%;
+  left: 10%;
+}
+.css-y8ay40-MuiTableCell-root {
+  font-weight: 800 !important;
+}
+.logout-id {
+  text-align: end;
+  margin-right: 19px;
+}
+.logout-id p {
+  color: #5e6278;
+  font-weight: 500;
+}
+.filter-box-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #1d1b1b26;
+  background-clip: border-box;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.filter-box {
+  display: flex;
+  justify-content: end;
+  align-items: stretch;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 0 2.25rem;
+  background-color: transparent;
+  align-items: center;
+}
+.header-main {
+  margin-bottom: 10px;
+  margin: 0 0px 0px 0px;
+}
+.container-fluid {
+  padding: 0px 0px 0 20px;
+}
+.filter-button {
+  font-family: "Montserrat";
+  background-color: #589b4c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 81px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.modal.show .modal-dialog {
+  transform: none;
+  position: absolute;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-content: space-between; */
+  left: 1244px;
+  right: -293px;
+  top: 45px ;
+}
+.modal-content {
+  width: 70%;
+}
+.form-control.form-control-solid {
+  background-color: #f5f8fa;
+  border-color: #f5f8fa;
+  color: #5e6278;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.from-date p,
+.from-date {
+  text-align: justify;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+/* //////////////////////////////// */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+.center-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+.heading {
+  font-weight: bold;
+  margin: 0;
+}
+
+.paraga {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+.sign-in-container span {
+  font-size: 12px;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.Sign-in {
+  border-radius: 20px;
+  border: 1px solid #589b4c;
+  background-color: #589b4c;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.form-handel {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+ 
+
+  width: 100%;
+  max-width: 950px;
+  min-height: 535px;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.container.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+@keyframes show {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+.overlay {
+  background: #b7dcab;
+  background: -webkit-linear-gradient(to right, #589b4c, #b5dea7);
+  background: linear-gradient(to right, #589b4c, #afd9a1);
+  /* background: linear-gradient(135deg, #589B4C, #b7dcab); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay {
+  transform: translateX(50%);
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+  transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+  transform: translateX(0);
+}
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right {
+  transform: translateX(20%);
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+  margin: 0px !important;
+}
+.css-pdct74-MuiTablePagination-selectLabel {
+  margin: 0px !important;
+}
+.superadmin-name h5 {
+  text-align: justify;
+  margin: 0px;
+}
+.superadmin-name p {
+  font-size: 12px;
+}
+.report_class{
+  cursor: pointer;
+}
+.left-button {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.right-button {
+  margin-left: auto;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .date-filter {
+    top: 122px !important ;
+    }
+  .modal.show .modal-dialog {
+    left: 67px;
+    right: -69px;
+  }
+  .inner-panel {
+    width: 96%;
+    left: 2%;
+  }
+  .container {
+    margin: 0 10px 0 10px;
+  }
+  .overlay-container {
+    display: none;
+  }
+  .sign-in-container {
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    max-width: 1200px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .date-filter {
+    top: 122px !important;
+    }
+  .modal.show .modal-dialog {
+    left: 67px;
+    right: -69px;
+  }
+  .inner-panel {
+    width: 96%;
+    left: 2%;
+  }
+  .container {
+    margin: 0 10px 0 10px;
+  }
+  .overlay-container {
+    display: none;
+  }
+  .sign-in-container {
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    max-width: 1200px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .date-filter {
+    top: 122px !important;
+    }
+  .modal.show .modal-dialog {
+    left: 67px;
+    right: -69px;
+  }
+  .inner-panel {
+    width: 96%;
+    left: 2%;
+  }
+  .container {
+    margin: 0 10px 0 10px;
+  }
+  .overlay-container {
+    display: none;
+  }
+  .sign-in-container {
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    max-width: 1200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .date-filter {
+    top: 122px !important;
+    }
+  .modal.show .modal-dialog {
+    left: 624px;
+    right: -102px;
+  }
+  .inner-panel {
+    width: 96%;
+    left: 2%;
+  }
+  .container {
+    margin: 0 10px 0 10px;
+  }
+  .overlay-container {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .modal-dialog.date-filter {
+    top: 125px !important;
+    left: 1256px !important;
+    right: 24px !important;
+    width: 100% !important;
+  }
+  
+  /* .modal.show .modal-dialog {
+    left: 753px;
+    right: -292px;
+  } */
+
+}
+
+/* Ultra large devices (extra large monitors, 1400px and up) */
+@media (min-width: 1400px) {
+  /* .modal.show .modal-dialog {
+    left: 753px;
+    right: -292px;
+  } */
+}
+
+.main-logo {
+  border-radius: 10px;
+}
+
+
+
