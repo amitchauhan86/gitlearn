@@ -6,7 +6,7 @@ import MainScreen from './Screens/MainScreen';
 
 function AppContent() {
   console.log("this is change only dev branch")
-  console.log(">>>>>>>>>>>>>>>>")
+  console.log(">>>>>>>>>>>>>>>ff>")
   console.log(">>>>>>>>>>>>>>>>")
   console.log(">>>>>>>>>>>>>>>>")
   return (
