@@ -6,7 +6,7 @@ import MainScreen from './Screens/MainScreen';
 
 function AppContent({a}) {
   console.log(a)
-  console.log("ffff", a)
+  console.log("fffff", a)
 
   return (
     <Routes>
