@@ -9,6 +9,8 @@ function AppContent() {
   console.log("this is change only dev branch1")
   console.log("this is change only dev branch2")
   console.log("this is change only dev branch3")
+
+  console.log("this is change only")
   return (
     <Routes>
       <Route exact path="/main" element={<MainPanel />} />
