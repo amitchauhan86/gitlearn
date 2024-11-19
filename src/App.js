@@ -4,12 +4,7 @@ import MainPanel from './Components/MainPanel';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainScreen from './Screens/MainScreen';
 
-function AppContent({a}) {
-  console.log(a)
-  console.log("ffff", a)
-  console.log("hello rrrr")
-  console.log("hello")
-  console.log("hellofff ffff dddd")
+function AppContent() {
 
   return (
     <Routes>
