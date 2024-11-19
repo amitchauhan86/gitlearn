@@ -4,7 +4,7 @@ import MainPanel from './Components/MainPanel';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainScreen from './Screens/MainScreen';
 
-function AppContent() {
+function AppContent({a}) {
 
   return (
     <Routes>
