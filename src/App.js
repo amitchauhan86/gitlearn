@@ -6,9 +6,9 @@ import MainScreen from './Screens/MainScreen';
 
 function AppContent() {
   console.log("this is change only dev branch")
-  console.log(">>>>>>>>>>>>>>>>")
-  console.log(">>>>>>>>>>>>>>>>")
-  console.log(">>>>>>>>>>>>>>>>")
+  console.log("this is change only dev branch1")
+  console.log("this is change only dev branch2")
+  console.log("this is change only dev branch3")
   return (
     <Routes>
       <Route exact path="/main" element={<MainPanel />} />
